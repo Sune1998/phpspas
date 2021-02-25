@@ -1,8 +1,23 @@
-p {
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+form{
+    padding: 10px;
     text-align: center;
 }
-body {
-    background-color: white;
+p {
+    text-align: center;
+}
 
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #0a4e77;
+    opacity: 0.5;
+}
+
+footer {
+    padding: 10px;
+    background-color: #0a4e77;
+    opacity: 0.5;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
