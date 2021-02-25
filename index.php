@@ -1,11 +1,12 @@
 
 <html>
 <body>
-Welcome <?php echo $_POST["name"]; ?><br>
+Welcome <?php echo $_POST["name"]; # tager imod input?><br>
 Your email address is: <?php echo $_POST["email"]; ?>
 </body>
 </html>
 <?php
+# laver en coockie
 $cookie_name = "sune";
 $cookie_value = "sune";
 setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
